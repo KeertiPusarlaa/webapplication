@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: webapplication
+  description: A web application developed by KeertiPusarlaa, designed to provide seamless user experiences and robust functionality.
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/webapplication
+    jira/project-key: SCRUM
+    jira/label: backstage-component:webapplication
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
