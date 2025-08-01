@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: webapplication
+  description: Not AI generated webapplication
+  annotations:
+    github.com/project-slug: KeertiPusarlaa/webapplication
+spec:
+  type: service
+  owner: default
+  lifecycle: production
